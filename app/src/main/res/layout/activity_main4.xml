@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/background"
+tools:context=".MainActivity4">
+
+<TextView
+    android:id="@+id/textView7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="Edit Your Booking Details"
+    android:textColor="#0a205a"
+    android:textSize="30dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.493"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+    android:id="@+id/textView8"
+    android:layout_width="165dp"
+    android:layout_height="34dp"
+    android:layout_marginTop="56dp"
+    android:background="@drawable/inputr"
+    android:gravity="center"
+    android:hint="21.12.2021"
+    android:textAlignment="center"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+<TextView
+    android:id="@+id/textView13"
+    android:layout_width="165dp"
+    android:layout_height="34dp"
+    android:layout_marginTop="36dp"
+    android:text="TO"
+    android:textAlignment="center"
+    android:textSize="20dp"
+    android:textColor="#0000FF"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView8"
+    android:gravity="center_horizontal" />
+
+<TextView
+    android:id="@+id/textView14"
+    android:layout_width="165dp"
+    android:layout_height="34dp"
+    android:layout_marginTop="36dp"
+    android:hint="22.12.2021"
+    android:background="@drawable/inputr"
+    android:textAlignment="center"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView13"
+    android:gravity="center" />
+
+<TextView
+    android:id="@+id/textView15"
+    android:layout_width="165dp"
+    android:layout_height="34dp"
+    android:layout_marginTop="60dp"
+    android:hint="4 Family Rooms"
+    android:background="@drawable/inputr"
+    android:textAlignment="center"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.498"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView14"
+    android:gravity="center" />
+
+<TextView
+    android:id="@+id/textView16"
+    android:layout_width="165dp"
+    android:layout_height="34dp"
+    android:layout_marginTop="60dp"
+    android:hint="AC Room"
+    android:background="@drawable/inputr"
+    android:textAlignment="center"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.498"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView15"
+    android:gravity="center" />
+
+<TextView
+    android:id="@+id/textView17"
+    android:layout_width="165dp"
+    android:layout_height="34dp"
+    android:layout_marginTop="60dp"
+    android:hint="4 Guests"
+    android:background="@drawable/inputr"
+    android:textAlignment="center"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.498"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView16"
+    android:gravity="center" />
+
+<Button
+    android:id="@+id/buttonE"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/dark_blue"
+    android:text="Change Reservation"
+    app:backgroundTint="#016afb"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView17"
+    app:layout_constraintVertical_bias="0.596" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Mish</string>
+    <string-array name="rooms_spinner">
+        <item>Single</item>
+        <item>Deluxe</item>
+        <item>Family</item>
+        <item>Standard</item>
+    </string-array>
+    <string name="AC">AC</string>
+    <string name="nonAC">NonAc</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
