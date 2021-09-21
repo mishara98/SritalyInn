@@ -9,6 +9,7 @@
         <color name="black">#FF000000</color>
         <color name="white">#FFFFFFFF</color>
 
+        <color name="table">#96c896</color>
 
         <color name="dark_blue">#016afb</color>
         <color name="average_blue">#03a0ff</color>

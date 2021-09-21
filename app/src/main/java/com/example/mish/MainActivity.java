@@ -1,6 +1,7 @@
 package com.example.mish;
 
 import android.content.Intent;
+import android.database.Cursor;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -8,49 +9,54 @@ import android.widget.CalendarView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
+
+    DBHelper myDB;
     private Button button;
-    CalendarView calender;
-    CalendarView calender2;
-    TextView checkOut;
-    TextView checkIn;
+    private Button buttonV;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        myDB = new DBHelper(this);
+
         button = findViewById(R.id.button1);
+        buttonV = findViewById(R.id.button);
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 openActicty2();
             }
         });
-        calender = findViewById(R.id.calender1);
-        checkIn = findViewById(R.id.checkIn);
-
-        calender.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
+        buttonV.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onSelectedDayChange(@NonNull CalendarView view, int year, int month, int dayOfMonth) {
-                String Date = dayOfMonth + "-" + (month+1) + "-" + year;
-                checkIn.setText(Date);
+            public void onClick(View v) {
+                openActicty7();
             }
         });
-        calender2 = findViewById(R.id.calender2);
-        checkOut = findViewById(R.id.checkOut);
 
-        calender2.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
-            @Override
-            public void onSelectedDayChange(@NonNull CalendarView view, int year, int month, int dayOfMonth) {
-                String Date = dayOfMonth + "-" + (month+1) + "-" + year;
-                checkOut.setText(Date);
-            }
-        });
+
+
     }
+
     public void openActicty2(){
         Intent intent = new Intent(this,MainActivity2.class);
         startActivity(intent);
     }
+    public void openActicty7(){
+        Intent intent = new Intent(this,MainActivity7.class);
+        startActivity(intent);
+    }
+
+
+
 }

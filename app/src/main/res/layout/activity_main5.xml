@@ -11,7 +11,7 @@
         android:id="@+id/textView18"
         android:layout_width="355dp"
         android:layout_height="46dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="112dp"
         android:gravity="center_horizontal"
         android:text="10% Discount Added"
         android:textAlignment="center"
@@ -22,34 +22,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="125dp"
-        android:layout_height="105dp"
-        android:layout_marginTop="56dp"
-        android:gravity="center_horizontal"
-        android:text="Total Price Is 60$"
-        android:textAlignment="center"
-        android:textColor="#3B3B3B"
-        android:textSize="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView18" />
-
     <Button
         android:id="@+id/buttonM"
         android:layout_width="159dp"
         android:layout_height="67dp"
-        android:layout_marginTop="56dp"
         android:background="@drawable/button"
         android:backgroundTint="@color/light_blue"
 
         android:text="Make Payment"
         app:backgroundTint="#016afb"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/buttonCa"
@@ -59,7 +45,7 @@
         android:background="@drawable/button"
         android:backgroundTint="@color/light_blue"
 
-        android:text="Cancel Booking"
+        android:text="Change Booking"
         app:backgroundTint="#016afb"
         app:layout_constraintBottom_toTopOf="@+id/buttonB"
         app:layout_constraintEnd_toEndOf="parent"

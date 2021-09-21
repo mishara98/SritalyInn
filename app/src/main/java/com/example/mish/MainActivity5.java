@@ -30,6 +30,7 @@ public class MainActivity5 extends AppCompatActivity {
             public void onClick(View v) {
 
                 alert("Your Booking Has Been Canceled");
+                openActictya();
 
             }
         });
@@ -44,6 +45,10 @@ public class MainActivity5 extends AppCompatActivity {
     }
     public void openActicty3b(){
         Intent intent = new Intent(this, MainActivity3.class);
+        startActivity(intent);
+    }
+    public void openActictya(){
+        Intent intent = new Intent(this, MainActivity4.class);
         startActivity(intent);
     }
     public void openActicty6(){
