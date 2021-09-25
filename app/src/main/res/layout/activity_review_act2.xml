@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReviewAct2"
+    android:background="@drawable/background"
+    android:layout_marginTop="12dp"
+    android:id="@+id/mainCardView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+
+            <TextView
+                android:id="@+id/name_txt"
+                android:layout_width="128dp"
+                android:layout_height="match_parent"
+                android:text="Username"
+                android:textColor="#E91E63"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="92dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:text="Comment on"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/date_txt"
+                android:layout_width="124dp"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:text="Date:"
+                android:textColor="#AEABAB"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/comment_txt"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="Display Comment"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

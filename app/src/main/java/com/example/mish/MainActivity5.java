@@ -48,11 +48,11 @@ public class MainActivity5 extends AppCompatActivity {
         startActivity(intent);
     }
     public void openActictya(){
-        Intent intent = new Intent(this, MainActivity4.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
     public void openActicty6(){
-        Intent intent = new Intent(this, MainActivity6.class);
+        Intent intent = new Intent(this, PaymentActivity.class);
         startActivity(intent);
     }
 

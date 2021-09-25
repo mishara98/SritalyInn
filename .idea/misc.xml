@@ -4,15 +4,44 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/drawable/borders.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/drawable/box.xml" value="0.1" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/drawable/button.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/drawable/custom.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/drawable/custom_fname.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/drawable/custom_input.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/drawable/ic_baseline_star_rate_24.xml" value="0.1" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/drawable/inputr.xml" value="0.653125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/drawable/prabha.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_admin_login.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_admin_operation.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_admin_reg.xml" value="0.21" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_admin_switch.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_comments.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_delete.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_edit_act2.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_edit_contact.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_edit_gprofile.xml" value="0.18" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_facilities.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_gprofile.xml" value="0.18" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_guest_signup.xml" value="0.22" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_home.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_loading.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_login_d2.xml" value="0.18" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_main2.xml" value="0.18" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_main3.xml" value="0.15" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_main4.xml" value="0.15" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_main5.xml" value="0.15" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_main6.xml" value="0.18" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_main7.xml" value="0.13269927536231885" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_main7.xml" value="0.2" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_payment.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_rating_home.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_review_act2.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_select_login.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_select_signup.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_updateadminprofile.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_updatehotelinfo.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Mish/app/src/main/res/layout/activity_view_pay.xml" value="0.16847826086956522" />
       </map>
     </option>
   </component>

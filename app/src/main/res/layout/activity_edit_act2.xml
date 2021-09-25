@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditAct2"
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/updatebtn"
+        android:layout_width="103dp"
+        android:layout_height="55dp"
+        android:text="UPDATE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintStart_toEndOf="@+id/cancelbtn"
+        app:layout_constraintTop_toBottomOf="@+id/editComment"
+        app:layout_constraintVertical_bias="0.526" />
+
+    <Button
+        android:id="@+id/cancelbtn"
+        android:layout_width="105dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:text="CANCEL"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editComment"
+        app:layout_constraintVertical_bias="0.526" />
+
+
+    <EditText
+        android:id="@+id/editComment"
+        android:layout_width="352dp"
+        android:layout_height="192dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/prabha"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Highly recommended!!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="288dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="68dp"
+        android:text="Edit Comment"
+        android:textColor="@color/purple_700"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.366"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

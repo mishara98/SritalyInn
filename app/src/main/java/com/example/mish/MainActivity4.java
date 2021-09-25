@@ -82,9 +82,9 @@ public class MainActivity4 extends AppCompatActivity {
                         cki22.getText().toString(),cko22.getText().toString(),rm2.getText().toString(),
                         r2.getText().toString(),g2.getText().toString());
                 if(isUpdate == true)
-                    Toast.makeText(MainActivity4.this, "Booking Updated", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity4.this, "Reservation Changed", Toast.LENGTH_LONG).show();
                 else
-                    Toast.makeText(MainActivity4.this, "Booking not Updated", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity4.this, "Reservation Not Change", Toast.LENGTH_LONG).show();
                 openActicty3a();
 
             }

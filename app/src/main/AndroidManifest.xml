@@ -10,6 +10,78 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mish">
         <activity
+            android:name=".ReviewAct2"
+            android:exported="true" />
+        <activity
+            android:name=".RatingHome"
+            android:exported="true" />
+        <activity
+            android:name=".EditAct2"
+            android:exported="true" />
+        <activity
+            android:name=".DeleteAct"
+            android:exported="true" />
+        <activity
+            android:name=".comments"
+            android:exported="true" />
+        <activity
+            android:name=".Updateadminprofile"
+            android:exported="true" />
+        <activity
+            android:name=".SelectSignup"
+            android:exported="true" />
+        <activity
+            android:name=".SelectLogin"
+            android:exported="true" />
+        <activity
+            android:name=".guest_signup"
+            android:exported="true" />
+        <activity
+            android:name=".Updatehotelinfo"
+            android:exported="true" />
+        <activity
+            android:name=".Home"
+            android:exported="true" />
+        <activity
+            android:name=".Facilities"
+            android:exported="true" />
+        <activity
+            android:name=".AdminSwitch"
+            android:exported="true" />
+        <activity
+            android:name=".AdminReg"
+            android:exported="true" />
+        <activity
+            android:name=".AdminOperation"
+            android:exported="true" />
+        <activity
+            android:name=".AdminLogin"
+            android:exported="true" />
+        <activity
+            android:name=".ViewPayActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PaymentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivityD2"
+            android:exported="true" />
+        <activity
+            android:name=".EditGProfile"
+            android:exported="true" />
+        <activity
+            android:name=".GProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Loading"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".MainActivity7"
             android:exported="true" />
         <activity
@@ -29,13 +101,7 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>

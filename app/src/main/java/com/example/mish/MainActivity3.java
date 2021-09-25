@@ -93,9 +93,9 @@ public class MainActivity3 extends AppCompatActivity {
                                                    cki2.getText().toString(),cko2.getText().toString(),rm.getText().toString(),
                                                    r.getText().toString(),g.getText().toString());
                                            if (isInserted == true)
-                                               Toast.makeText(MainActivity3.this, "Booking Inserted", Toast.LENGTH_LONG).show();
+                                               Toast.makeText(MainActivity3.this, "Room Reserved", Toast.LENGTH_LONG).show();
                                            else
-                                               Toast.makeText(MainActivity3.this, "Booking not Inserted", Toast.LENGTH_LONG).show();
+                                               Toast.makeText(MainActivity3.this, "Room Not Reserve", Toast.LENGTH_LONG).show();
 
                                        }
 
@@ -105,11 +105,7 @@ public class MainActivity3 extends AppCompatActivity {
     }
 
 
-    /*public void openActicty4() {
-        Intent intent = new Intent(this, MainActivity4.class);
-        startActivity(intent);
 
-    }*/
 
     public void openActicty5() {
         Intent intent = new Intent(this, MainActivity5.class);

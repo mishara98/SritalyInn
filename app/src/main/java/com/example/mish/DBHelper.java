@@ -9,6 +9,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import androidx.annotation.Nullable;
 
 public class DBHelper extends SQLiteOpenHelper {
+    public static final int DATABASE_VERSION = 1;
     public static final String DB_Name = "Sritaly.db";
     public static final String Table_Name = "booking";
 
@@ -19,7 +20,10 @@ public class DBHelper extends SQLiteOpenHelper {
     public static final String COL_5 = "NumberOfRooms";
     public static final String COL_6 = "NumberOfGuests";
 
+    /*public static final String Table_Name2 = "users";
 
+    public static final String COL_7 = "username";
+    public static final String COL_8 = "password";*/
 
 
     private String Table_Create_Name = "create table " + Table_Name + " (" +
@@ -32,14 +36,22 @@ public class DBHelper extends SQLiteOpenHelper {
 
 
 
+    /*private String Table_Create_Name2 = "create table " + Table_Name2 + " (" +
+            COL_7 + " TEXT PRIMARY KEY," +
+            COL_8 + " TEXT)";*/
+
+
+
 
     public DBHelper(@Nullable Context context) {
-        super(context, DB_Name, null, 1);
+        super(context, DB_Name, null, DATABASE_VERSION);
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL(Table_Create_Name);
+        //db.execSQL(Table_Create_Name2);
+        db.execSQL("create table users(username TEXT primary key, password TEXT)");
 
 
 
@@ -48,6 +60,8 @@ public class DBHelper extends SQLiteOpenHelper {
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("DROP TABLE IF EXISTS " + Table_Name);
+        //db.execSQL("DROP TABLE IF EXISTS " + Table_Name2);
+        db.execSQL("drop table if exists users");
 
         onCreate(db);
 
@@ -97,6 +111,69 @@ public class DBHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getWritableDatabase();
         return db.delete(Table_Name, "ID = ?", new String[]{ID});
     }
+
+
+
+
+
+
+
+    /*public boolean InsertData(String username,String password){
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+
+        values.put("username",username);
+        values.put("password",password);
+
+        long results = db.insert("users",null,values);
+        if (results==-1)
+            return false;
+        else
+            return true;
+    }
+
+    public boolean checkusername(String username){
+        SQLiteDatabase db = this.getWritableDatabase();
+        Cursor cursor = db.rawQuery("select * from users where username=?", new String[] {username});
+        if (cursor.getCount()>0)
+            return true;
+        else
+            return false;
+
+    }
+
+    public boolean checkusernamepassword(String username, String password) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        Cursor cursor=db.rawQuery("select * from users where username=? and password=?",new String[]{username,password});
+        if (cursor.getCount()>0)
+            return true;
+        else
+            return false;
+
+
+    }
+    public Cursor Getdata ()
+    {
+        SQLiteDatabase db = this.getWritableDatabase();
+        Cursor cursor = db.rawQuery("Select * from users", null);
+        return cursor;
+
+    }
+
+
+    public boolean Updatedata(String username,String password){
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put("username",username);
+        values.put("password",password);
+        db.update("users",values,"username = ?",new String[]{username});
+        return true;
+    }
+
+    public Integer DeleteData(String username) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        return db.delete("users", "username = ?", new String[]{username});
+    }*/
 
 
 }
